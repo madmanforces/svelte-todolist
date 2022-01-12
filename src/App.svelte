@@ -1,16 +1,20 @@
 <script>
-	import  Something  from './Something.svelte'
-	import { lifecycle, delayRender } from './lifecycle.js'
-	let done = delayRender()
-	lifecycle()
+	import Router from 'svelte-spa-router';
+	import routes from "./routes/index.js";
+	import Header from "./components/Header.svelte";
+	
+
 </script>
+<Header />
+<Router routes={routes} />
 
 
-{#if $done}
-	<h1>hello life cycle</h1>
-{/if}
 
-<Something />
+
+
+
+
+
 
 
 
