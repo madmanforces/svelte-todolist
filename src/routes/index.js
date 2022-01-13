@@ -3,5 +3,5 @@ import Coin from "./Coin.svelte";
 
 export default {
     '/': Coins,
-	'/coin': Coin 
+	'/:coinId': Coin, 
 }

@@ -10,10 +10,11 @@
         button {
             background-color: whitesmoke;
             color: black;
-            border: none;
-            border-radius: 4px;
-            padding: 0.5rem;
-            text-transform: uppercase;
+            border: 0px none;
+            display: flex;
+            align-items: center;
+            font-weight: 300;
+            text-decoration-line: none;
             
         }
         :global(body.dark-mode) button {
